@@ -31,3 +31,8 @@ SHA256 hash.
  -s <signature file> : The file where the output if rsa-sign is stored. For rsa-validate
 this file will instead be an input, containing a signature to validate.
   
+4. 
+lock.py -d newone -p unlockpublic -r lockprivate -vk capublic 
+
+
+unlock.py -d newone -p lockpublic -r unlockprivate -vk capublic
